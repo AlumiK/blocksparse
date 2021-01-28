@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import functools
 import collections
-import tensorflow  as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.python.framework import ops
 
 from blocksparse.utils import _op_module

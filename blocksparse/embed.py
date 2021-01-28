@@ -5,7 +5,7 @@ from __future__ import division
 from __future__ import print_function
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.python.framework import ops, function
 
 from blocksparse.utils import _op_module, scalar_constant

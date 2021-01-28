@@ -6,7 +6,7 @@ from __future__ import print_function
 
 from time import time
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import blocksparse.ewops as ew
 import blocksparse.transformer as trans
 from tensorflow.python.ops import gradient_checker

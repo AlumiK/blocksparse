@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import sys
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from time import time
 
 from blocksparse.matmul import BlocksparseMatMul, SparseProj, group_param_grads

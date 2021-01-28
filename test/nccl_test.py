@@ -10,7 +10,7 @@ from mpi4py import MPI
 import blocksparse.nccl as nccl
 import blocksparse.ewops as ew
 from time import time
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import os
 
 comm = MPI.COMM_WORLD

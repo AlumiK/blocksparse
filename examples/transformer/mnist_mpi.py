@@ -2,7 +2,7 @@
 
 import argparse
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tqdm   import tqdm
 from mpi4py import MPI
 from tensorflow.examples.tutorials.mnist import input_data

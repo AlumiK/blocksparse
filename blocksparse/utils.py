@@ -7,7 +7,7 @@ from __future__ import print_function
 import sys
 import os.path
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from operator import mul
 if sys.version_info >= (3, 0):
     from functools import reduce

@@ -3,7 +3,7 @@ import os.path
 import string
 import json
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import random
 
 def ceil_div(x, y):

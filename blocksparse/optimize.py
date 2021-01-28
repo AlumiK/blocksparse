@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import os.path
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.python.framework import ops
 from tensorflow.python.training  import slot_creator
 from tensorflow.python.training  import optimizer

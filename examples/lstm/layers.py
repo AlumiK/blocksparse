@@ -1,5 +1,5 @@
 import numpy      as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from   sklearn.externals  import joblib
 from   blocksparse.matmul import BlocksparseMatMul, SparseProj, group_param_grads, get_parents, add_control_input, largest_block
 from   blocksparse.norms  import layer_norm

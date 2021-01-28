@@ -2,7 +2,7 @@ import os
 import re
 import sys
 import tempfile
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 debug_messages = False
 

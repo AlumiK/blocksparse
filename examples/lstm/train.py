@@ -9,7 +9,7 @@ import argparse
 import logging
 import platform
 import numpy      as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tqdm   import tqdm
 import layers
 from layers import HParams, LSTM_Model

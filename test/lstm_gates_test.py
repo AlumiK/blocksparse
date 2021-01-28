@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import sys
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import blocksparse.ewops as ew
 import blocksparse.norms as norms
 import blocksparse.lstm as lstm
